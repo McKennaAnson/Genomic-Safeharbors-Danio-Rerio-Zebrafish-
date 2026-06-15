@@ -50,7 +50,7 @@ All cleaned and processed data is avaliable to download from here: [danioRer_dat
 | safeharbors_rm.tsv | Genomic coordinates of safeharbors with RepeatMasker coordinates subtracted (columns `Chromosome`, `Start`, `End` and `Size in BP`) |
 | safeharbors_rm_seqs.fasta | Sequences of the safeharbors with RepeatMasker coordinates subtracted |
 
-## Optional BLAST 
+## Optional BLAST Script
 ### Overview
 The script `blastn.py` performs an online BLASTN search for each sequence in an input FASTA file against the NCBI nucleotide database (`nt`), restricted to zebrafish (*Danio rerio*) sequences.
 
@@ -60,6 +60,7 @@ The script `blastn.py` performs an online BLASTN search for each sequence in an 
 ### Usage
 `python blastn.py seqs.fasta youremail@website.com`
 
+### Output
 For every query sequence, a separate text file is generated:
 
 <chr_:start-end>_blastn.txt

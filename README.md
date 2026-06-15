@@ -16,7 +16,7 @@ All cleaned and processed data is avaliable to download from here: [danioRer_dat
 | `danRer11_t.gtf`      | tRNA coordinates | v11 | [GtRNADB](https://gtrnadb.org/) | GTF | Raw download may have malformed columns |
 | `danRer11_mi.bed`     | miRNA coordiantes | v11 | [MirGeneDB 3.0](https://mirgenedb.org/) | BED | 
 | `danRer11_onco.txt`   | Gene names of oncogenes | v11 | [COSMIC](https://cancer.sanger.ac.uk/cosmic/download/cosmic/v104/cancergenecensus) & [Human Zebrafish Gene Orthologs - ZFIN](https://zfin.org/downloads/human_orthos.txt) |  | Found ortholog genes between human and zebrafish then extracted those genes names from the COSMIC Cancer Gene list |
-| `danRer11_gap.txt`    | Gap coordinates | v11 |  [UCSC](https://genome.ucsc.edu/cgi-bin/hgTables) | BED | 
+| `danRer11_gap.txt`    | Gap coordinates | v11 |  [UCSC](https://genome.ucsc.edu/cgi-bin/hgTables?hgsid=4092619007_GihEf7a5LhdatZ3HK8bmgfxMGSkR&db=danRer11&hgta_group=map&hgta_track=gap&hgta_table=0&hgta_regionType=range&position=chr5%3A44%2C806%2C795-48%2C499%2C271&hgta_outputType=primaryTable&hgta_outFileName=) | BED | 
 | `danRer11_cent.gtf`   | Centromere coordinates | v11 |  | GTF | Generated using [Quartet CentroMiner](https://github.com/aaranyue/quarTeT) and top scoring centromeres extracted manually |
 | `danRer11_rm.bed` | RepeatMasker Coordinates | v11 | [UCSC](https://genome.ucsc.edu/cgi-bin/hgTables?db=danRer11&hgta_group=varRep&hgta_track=rmsk&hgta_table=rmsk) |  BED | 
 
